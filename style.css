@@ -1,0 +1,57 @@
+/*customise header */
+#title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  margin: auto;
+  padding: 2rem 0;
+  background-color: #fbc7fc55;
+  border-bottom: 2px solid #fbc7fc54;
+  color: hsl(350, 80%, 70%);
+}
+
+/*customise board */
+#board {
+  color: hsl(350, 80%, 80%);
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  solid: 4px hsl(350, 80%, 80%);
+  margin-top: 80px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+/*customise cells */
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 3px solid hsl(350, 90%, 80%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+/*customise message for players turn */
+#message {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  margin: 20px;
+  padding: 3rem 3;
+  background-color: #fbc7fc55;
+  border-bottom: 2px solid #fbc7fc54;
+  color: hsl(350, 80%, 50%);
+}
+/*customise button to reset the game */
+#reset {
+  justify-content: center;
+  display: block;
+  margin: auto;
+  font-size: 15px;
+  padding: 3rem 3;
+  background-color: #fbc7fc55;
+  color: hsl(350, 80%, 50%);
+}
